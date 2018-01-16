@@ -1,8 +1,37 @@
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Nunito Sans Regular'), local('NunitoSans-Regular'), url(https://fonts.gstatic.com/s/nunitosans/v3/iJ4p9wO0GDKJ-D5teKuZqo4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Nunito Sans Black';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Nunito Sans Black'), local('NunitoSans-Black'), url(https://fonts.gstatic.com/s/nunitosans/v3/XvilrNtBQKRMeiqSPzEFHcpPZoEQdaDZ3o3Np19rzJk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Nunito Sans Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Nunito Sans Bold'), local('NunitoSans-Bold'), url(https://fonts.gstatic.com/s/nunitosans/v3/XvilrNtBQKRMeiqSPzEFHYlIZu-HDpmDIZMigmsroc4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+
 .building {
+  font-family: 'Nunito Sans';
+  font-size: 13px;
   width: 300px;
 }
 
 .building .building-tenancy {
+  font-family: 'Nunito Sans Black';
+  font-size: 12px;
+  color: grey;
   position: absolute;
   padding: 1%;
   background: white;
@@ -22,15 +51,24 @@
 }
 
 .building .building-title {
+  font-family: 'Nunito Sans Black';
   margin-bottom: 3%;
 }
 
 .building .building-city {
   margin-bottom: 9%;
+  font-size: 12px;
+  font-family: 'Nunito Sans Black';
+  color: grey;
 }
 
 .building .building-info-bottom > div {
   display: inline-block;
+}
+
+.building .building-info-bottom .building-price {
+  font-family: 'Nunito Sans Black';
+  font-weight: bold;
 }
 
 .building .building-info-bottom .building-rooms-and-area {
