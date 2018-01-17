@@ -71,6 +71,13 @@
   font-weight: bold;
 }
 
-.building .building-info-bottom .building-rooms-and-area {
+.building .building-info-bottom .building-rooms,
+.building .building-info-bottom .building-area {
   float: right;
+}
+
+.building .building-info-bottom .building-rooms {
+  margin-right: 5%;
+  padding-right: 5%;
+  border-right: 1px solid grey;
 }
